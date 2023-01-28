@@ -31,24 +31,153 @@ Publish the website in the given URL.
 ## DESIGN:
 
 ## PROGRAM :
-/* Home Page */
+```html
+
+/* Frame 1 */
 
 
-position: relative;
-width: 360px;
-height: 640px;
-
-background: #FDF3D9;
-
-
-/* LOGIN PAGE */
+position: absolute;
+width: 307px;
+height: 83px;
+left: 21px;
+top: 25px;
 
 
-position: relative;
-width: 358px;
-height: 640px;
 
-background: #07279A;
+/* roll_logo 1 */
+
+
+position: absolute;
+width: 143px;
+height: 130px;
+left: 109px;
+top: 123px;
+
+background: url(roll_logo.jpg);
+border-radius: 51px;
+
+
+/* beyond limits */
+
+
+position: absolute;
+width: 255px;
+height: 31px;
+left: 50px;
+top: 269px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: rgba(17, 183, 220, 0.95);
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Frame 4 */
+
+
+position: absolute;
+width: 146px;
+height: 15px;
+left: 14px;
+top: 482px;
+
+background: rgba(55, 30, 208, 0.57);
+mix-blend-mode: hard-light;
+
+
+/* LOGO2 1 */
+
+
+position: absolute;
+width: 330px;
+height: 128px;
+left: 14px;
+top: 331px;
+
+background: url(LOGO2.jpg);
+11111
+
+
+/* Frame 1 */
+
+
+position: absolute;
+width: 307px;
+height: 84px;
+left: 21px;
+top: 25px;
+
+
+
+/* username: */
+
+
+position: absolute;
+width: 189px;
+height: 28px;
+left: 37px;
+top: 170px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #52F5D7;
+
+
+
+/* Rectangle 5 */
+
+
+position: absolute;
+width: 286px;
+height: 31px;
+left: 42px;
+top: 227px;
+
+background: #8D13C7;
+
+
+/* password: */
+
+
+position: absolute;
+width: 185px;
+height: 29px;
+left: 37px;
+top: 287px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #52F5D7;
+
+
+
+/* Rectangle 6 */
+
+
+position: absolute;
+width: 286px;
+height: 33px;
+left: 42px;
+top: 331px;
+
+background: #8D13C7;
+1111
 
 
 /* PRODUCTS */
@@ -57,8 +186,8 @@ background: #07279A;
 position: absolute;
 width: 137px;
 height: 29px;
-left: 106px;
-top: 49px;
+left: 112px;
+top: 37px;
 
 font-family: 'Inter';
 font-style: italic;
@@ -79,8 +208,8 @@ color: #ECE6EE;
 position: absolute;
 width: 196px;
 height: 144px;
-left: 28px;
-top: 144px;
+left: 34px;
+top: 132px;
 
 font-family: 'Inter';
 font-style: italic;
@@ -89,7 +218,7 @@ font-size: 40px;
 line-height: 48px;
 
 color: #FFFFFF;
-
+```
 
 ## OUTPUT:
 
